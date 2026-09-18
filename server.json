@@ -1,8 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/registry/main/docs/reference/server-json/draft/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.pmontp19/surtdecasa-mcp",
   "title": "Surt de Casa (surtdecasa.cat)",
-  "description": "Servidor MCP per surtdecasa.cat, el digital de cultura de proximitat de Catalunya. Cerca esdeveniments a l'agenda per zona territorial, categoria, poblacio, tipus i dates, consulta el detall de cada esdeveniment, la cartellera de cinema setmanal i l'autocomplete de poblacions.",
+  "description": "Servidor MCP per surtdecasa.cat: agenda cultural de Catalunya, cartellera de cinema i poblacions.",
   "version": "0.1.0",
   "websiteUrl": "https://surtdecasa.cat",
   "repository": {
