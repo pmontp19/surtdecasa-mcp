@@ -125,7 +125,7 @@ export async function cercarAgenda(p: CercaParams): Promise<{ resultats: Resulta
       url: `${BASE}${href}`,
       titol,
       localitat: row.find(".localitat").first().text().trim(),
-      dates: row.find(".bdr2 p").last().text().trim(),
+      dates: row.find(".bdr1 p, .bdr2 p").last().text().trim(),
       imatge: row.find("img").first().attr("src") ?? "",
     });
   });
